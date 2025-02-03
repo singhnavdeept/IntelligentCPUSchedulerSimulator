@@ -1,0 +1,25 @@
+# Core dependencies
+matplotlib==3.7.1          # For static visualizations (e.g., Gantt charts)
+plotly==5.14.1             # For interactive visualizations
+numpy==1.23.5              # For numerical computations
+pandas==1.5.3              # For data manipulation (optional, if needed)
+
+# GUI dependencies
+tkinter                    # Built-in Python library for GUI development (no version pinning needed)
+PyQt5==5.15.9              # Alternative GUI framework (optional)
+
+# Machine Learning dependencies (optional)
+scikit-learn==1.2.2        # For training and evaluating ML models
+tensorflow==2.12.0         # For advanced ML models (optional)
+torch==2.0.1               # PyTorch for deep learning (optional)
+
+# Testing dependencies
+pytest==7.3.1              # For unit testing
+pytest-cov==4.1.0          # For measuring test coverage
+
+# Logging and utilities
+loguru==0.7.0              # Simplified logging library (optional)
+
+# Exporting results
+openpyxl==3.1.2            # For exporting data to Excel (optional)
+fpdf==2.6.1                # For exporting results as PDF files (optional)
